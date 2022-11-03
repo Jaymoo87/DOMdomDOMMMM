@@ -29,15 +29,25 @@ document.addEventListener("DOMContentLoaded", function () {
         let p = document.createElement('p');
         div.className = "squares";
         squareCount ++;
+        div.id = squareCount;
         daddydiv.appendChild(div);
         div.appendChild(p);
         p.className = 'p';
         p.innerText = squareCount;
-        p.style.color = "white";
-        console.log(div)
+        p.style.color = "black"; //black!!
+        console.log(div);
+
+        div.addEventListener('mouseover', function(){
+            p.style.color = "white";
+        })
+        div.addEventListener('mouseleave', function(){
+            p.style.color = "black";
+        })
     });
     
     // putting all the babies with the daddydiv
     daddydiv.appendChild(div);
-    div.id = squareCount;
+
+    
+    
 });
