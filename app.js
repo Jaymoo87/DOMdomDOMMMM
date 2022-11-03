@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
         div.appendChild(p);
         p.className = 'p';
         p.innerText = squareCount;
-        p.style.color = "black";
+        p.style.color = "white";
         console.log(div)
     });
     

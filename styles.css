@@ -1,6 +1,13 @@
 .squares {
     display: inline-block;
-    width: 200px; 
-    height: 200px;
+    width: 100px; 
+    height: 100px;
     background-color: black;
+}
+
+p { 
+    font-family: cursive;
+    font-weight: 9;
+    font-size: x-large;
+    text-align: center;
 }
