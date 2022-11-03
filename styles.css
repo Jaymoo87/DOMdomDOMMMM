@@ -3,6 +3,7 @@
     width: 100px; 
     height: 100px;
     background-color: black;
+    
 }
 
 p { 
@@ -10,4 +11,8 @@ p {
     font-weight: 9;
     font-size: x-large;
     text-align: center;
+    user-select: none;
+}
+button {
+    user-select: none;
 }
